@@ -50,7 +50,7 @@ async def song(client, message: Message):
             {
                 "key": "FFmpegExtractAudio",
                 "preferredcodec": "mp3",
-                "preferredquality": "720",
+                "preferredquality": "144",
             }
         ],
         "outtmpl": "%(id)s.mp3",
