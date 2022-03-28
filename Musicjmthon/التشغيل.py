@@ -162,7 +162,7 @@ async def play(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://telegra.ph/file/b0b13433b8595ed385f07.jpg",
+                    photo="https://telegra.ph/file/a58c41630c77e28f0396b.jpg",
                     caption=f"""
 **▶ تم تشغيل الاغنية 
 **🏷️ العنوان : [{songname}]({link})
@@ -261,7 +261,7 @@ async def vplay(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://telegra.ph/file/b0b13433b8595ed385f07.jpg",
+                    photo="https://telegra.ph/file/a58c41630c77e28f0396b.jpg",
                     caption=f"""
 #⃣ Video Di Antrian Ke {pos}
 **🏷️  العنوان : [{songname}]({url})
@@ -359,7 +359,7 @@ async def playfrom(client, m: Message):
     chat_id = m.chat.id
     if len(m.command) < 2:
         await m.reply(
-            f"**الاستخدام:** \n\n`{HNDLR}راندوم [ايدي دردشه/معرفها]` \n`{HNDLR}راندوم [ايدي دردشه/معرفها]`"
+            f"**الاستخدام:** \n\n`{HNDLR}عشوائي [ايدي دردشه/معرفها]` \n`{HNDLR}عشوائي [ايدي دردشه/معرفها]`"
         )
     else:
         args = m.text.split(maxsplit=1)[1]
