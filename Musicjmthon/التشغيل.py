@@ -143,7 +143,7 @@ async def play(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://telegra.ph/file/b0b13433b8595ed385f07.jpg",
+                    photo="https://telegra.ph/file/a58c41630c77e28f0396b.jpg",
                     caption=f"""
 **🏷️ العنوان : [{songname}]({link})
 💬 ايدي الدردشة : {chat_id}
@@ -285,7 +285,7 @@ async def vplay(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://telegra.ph/file/b0b13433b8595ed385f07.jpg",
+                    photo="https://telegra.ph/file/a58c41630c77e28f0396b.jpg",
                     caption=f"""
 **🏷️  العنوان : [{songname}]({url})
 💬 ايدي المحادثه : {chat_id}
@@ -391,7 +391,7 @@ async def playfrom(client, m: Message):
                     add_to_queue(chat_id, songname, location, link, "Audio", 0)
                     # await m.reply_to_message.delete()
                     await m.reply_photo(
-                        photo="https://telegra.ph/file/b0b13433b8595ed385f07.jpg",
+                        photo="https://telegra.ph/file/a58c41630c77e28f0396b.jpg",
                         caption=f"""
 **▶ ابدأ تشغيل الأغاني من {chat}
 🏷️ العنوان : [{songname}]({link})
